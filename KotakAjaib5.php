@@ -33,7 +33,8 @@ function buatTabelPangkat($batas) {
     echo "\n";
 }
 
-$batasTabel = 10;
+echo "Masukan Angka : ";
+$batasTabel = trim(fgets(STDIN));
 
 buatTabelPerkalian($batasTabel);
 buatTabelPenjumlahan($batasTabel);
